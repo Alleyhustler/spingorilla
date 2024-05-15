@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('gif/Progetto\ senza\ titolo.png'); /* Replace 'background.png' with the path to your PNG image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Background image remains fixed as the user scrolls */
+}
+
+header {
+    background-color: rgba(0, 0, 0); /* Adding some transparency to the header for better readability */
+    padding: 10px;
+    text-align: right;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.social-icon {
+    margin-left: 10px;
+}
+
+main {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gorilla-wrapper {
+    display: inline-block;
+    margin-top: 130px; /* Adjust the margin-top value as needed */
+}
+
+.funny-content {
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
